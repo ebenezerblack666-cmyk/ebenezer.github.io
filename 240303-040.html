@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBENEZER Properties | Luxury Real Estate</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="index.html">EBENEZER<span>Properties</span></a>
+                </div>
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#properties">Properties</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="help.html">Help</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-actions">
+                    <button class="btn-signin">Sign In</button>
+                    <button class="btn-register">Register</button>
+                </div>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Discover Extraordinary Properties</h1>
+                <p class="hero-subtitle">Luxury real estate redefined through exceptional service and unparalleled market expertise</p>
+                
+                <div class="search-container">
+                    <div class="search-filters">
+                        <div class="filter-group">
+                            <label for="location">Location</label>
+                            <select id="location">
+                                <option value="">Select Location</option>
+                                <option value="manhattan">Manhattan</option>
+                                <option value="beverly-hills">Beverly Hills</option>
+                                <option value="miami">Miami Beach</option>
+                                <option value="hamptons">The Hamptons</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label for="property-type">Property Type</label>
+                            <select id="property-type">
+                                <option value="">Select Type</option>
+                                <option value="penthouse">Penthouse</option>
+                                <option value="villa">Villa</option>
+                                <option value="mansion">Mansion</option>
+                                <option value="estate">Estate</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label for="price-range">Price Range</label>
+                            <select id="price-range">
+                                <option value="">Select Range</option>
+                                <option value="1-5">$1M - $5M</option>
+                                <option value="5-10">$5M - $10M</option>
+                                <option value="10-20">$10M - $20M</option>
+                                <option value="20+">$20M+</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label for="bedrooms">Bedrooms</label>
+                            <select id="bedrooms">
+                                <option value="">Any</option>
+                                <option value="3">3+</option>
+                                <option value="4">4+</option>
+                                <option value="5">5+</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button class="search-btn">Search Properties</button>
+                </div>
+                
+                <div class="hero-actions">
+                    <button class="btn-primary">Browse Properties</button>
+                    <button class="btn-secondary">Schedule Consultation</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Properties Section -->
+    <section id="properties" class="featured-properties">
+        <div class="container">
+            <h2 class="section-title">Curated Luxury Properties</h2>
+            <div class="properties-grid">
+                <div class="property-card">
+                    <div class="property-image">
+                        <div class="price-badge">$3,850,000</div>
+                        <div class="property-overlay">
+                            <button class="view-details">View Details</button>
+                        </div>
+                    </div>
+                    <div class="property-info">
+                        <h3>Modern Penthouse</h3>
+                        <div class="property-details">
+                            <span><i class="fas fa-bed"></i> 4 Beds</span>
+                            <span><i class="fas fa-bath"></i> 3.5 Baths</span>
+                            <span><i class="fas fa-ruler-combined"></i> 3,200 sq ft</span>
+                        </div>
+                        <p class="property-location"><i class="fas fa-map-marker-alt"></i> Manhattan, NY</p>
+                    </div>
+                </div>
+                
+                <div class="property-card">
+                    <div class="property-image">
+                        <div class="price-badge">$7,200,000</div>
+                        <div class="property-overlay">
+                            <button class="view-details">View Details</button>
+                        </div>
+                    </div>
+                    <div class="property-info">
+                        <h3>Oceanfront Villa</h3>
+                        <div class="property-details">
+                            <span><i class="fas fa-bed"></i> 5 Beds</span>
+                            <span><i class="fas fa-bath"></i> 4.5 Baths</span>
+                            <span><i class="fas fa-ruler-combined"></i> 4,800 sq ft</span>
+                        </div>
+                        <p class="property-location"><i class="fas fa-map-marker-alt"></i> Miami Beach, FL</p>
+                    </div>
+                </div>
+                
+                <div class="property-card">
+                    <div class="property-image">
+                        <div class="price-badge">$12,500,000</div>
+                        <div class="property-overlay">
+                            <button class="view-details">View Details</button>
+                        </div>
+                    </div>
+                    <div class="property-info">
+                        <h3>Beverly Hills Estate</h3>
+                        <div class="property-details">
+                            <span><i class="fas fa-bed"></i> 6 Beds</span>
+                            <span><i class="fas fa-bath"></i> 7 Baths</span>
+                            <span><i class="fas fa-ruler-combined"></i> 8,500 sq ft</span>
+                        </div>
+                        <p class="property-location"><i class="fas fa-map-marker-alt"></i> Beverly Hills, CA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Premium Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Luxury Sales</h3>
+                    <p>Expert representation for buying and selling exclusive properties with discretion and market insight.</p>
+                    <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Property Management</h3>
+                    <p>Comprehensive management services for luxury properties, ensuring optimal value and condition.</p>
+                    <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Investment Consulting</h3>
+                    <p>Strategic advice for luxury real estate investments to maximize returns and portfolio growth.</p>
+                    <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h3>Relocation Services</h3>
+                    <p>Seamless relocation assistance for discerning clients moving to new luxury markets.</p>
+                    <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Preview Section -->
+    <section class="about-preview">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About EBENEZER Properties</h2>
+                    <p>For over two decades, EBENEZER Properties has been the premier name in luxury real estate, connecting discerning clients with extraordinary properties worldwide.</p>
+                    <p>Our bespoke approach combines deep market knowledge with unparalleled service to deliver exceptional results for our elite clientele.</p>
+                    
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number">25+</span>
+                            <span class="stat-label">Years in Business</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">1,200+</span>
+                            <span class="stat-label">Properties Sold</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">Client Satisfaction</span>
+                        </div>
+                    </div>
+                    
+                    <a href="about.html" class="btn-secondary">Learn More About Us</a>
+                </div>
+                <div class="about-image">
+                    <!-- Team photo would go here -->
+                    <div class="image-placeholder">Team Photo</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Client Testimonials</h2>
+            <div class="testimonial-carousel">
+                <div class="testimonial active">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"EBENEZER Properties made our dream home a reality. Their attention to detail and market expertise were unparalleled."</p>
+                        <div class="client-info">
+                            <div class="client-photo">
+                                <!-- Client photo would go here -->
+                                <div class="photo-placeholder">JS</div>
+                            </div>
+                            <div class="client-details">
+                                <h4>James & Sophia Richardson</h4>
+                                <p>Manhattan Penthouse Buyers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"The team at EBENEZER secured a record price for our family estate. Their network and marketing strategy were exceptional."</p>
+                        <div class="client-info">
+                            <div class="client-photo">
+                                <!-- Client photo would go here -->
+                                <div class="photo-placeholder">MC</div>
+                            </div>
+                            <div class="client-details">
+                                <h4>Michael Chen</h4>
+                                <p>Beverly Hills Estate Seller</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Their investment consulting helped us build a diverse luxury portfolio that has outperformed all expectations."</p>
+                        <div class="client-info">
+                            <div class="client-photo">
+                                <!-- Client photo would go here -->
+                                <div class="photo-placeholder">AR</div>
+                            </div>
+                            <div class="client-details">
+                                <h4>Amara Rodriguez</h4>
+                                <p>Real Estate Investor</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="carousel-prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="cta-section">
+        <div class="container">
+            <h2>Ready to Find Your Dream Home?</h2>
+            <p>Contact us today to schedule a private tour or consultation with our luxury real estate specialists.</p>
+            
+            <div class="cta-options">
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="cta-divider">
+                    <span>OR</span>
+                </div>
+                
+                <div class="schedule-tour">
+                    <h3>Schedule a Private Tour</h3>
+                    <p>Experience our exclusive properties firsthand with a personalized private tour.</p>
+                    <button class="btn-secondary">Schedule Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <a href="index.html">EBENEZER<span>Properties</span></a>
+                    </div>
+                    <p>Premier luxury real estate services for discerning clients worldwide.</p>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Park Avenue, New York, NY 10017</p>
+                        <p><i class="fas fa-phone"></i> +1 (212) 555-1234</p>
+                        <p><i class="fas fa-envelope"></i> info@ebenezerproperties.com</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#properties">Properties</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="help.html">Help Center</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    
+                    <div class="newsletter">
+                        <h4>Subscribe to Our Newsletter</h4>
+                        <form>
+                            <input type="email" placeholder="Your Email Address">
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
